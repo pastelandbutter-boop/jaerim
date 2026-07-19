@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Gowun+Dodum&family=Manrope:wght@400..800&family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap");
 
 @font-face {
   font-family: "Pretendard";
@@ -21,9 +21,7 @@
   --jaerim-card: #fffcf8;
   --jaerim-line: rgba(71, 59, 76, 0.18);
   --font-display: "Gowun Dodum", "Avenir Next", sans-serif;
-  --font-editorial: "Fraunces", Georgia, serif;
-  --font-body: "Manrope", "Avenir Next", sans-serif;
-  --font-hero-body: "Pretendard", "Avenir Next", sans-serif;
+  --font-body: "Pretendard", "Avenir Next", sans-serif;
   --font-note: "Nanum Pen Script", cursive;
   --radius-card: 20px;
   --radius-button: 14px;
@@ -80,21 +78,14 @@ p {
   margin: 0 0 1rem;
 }
 
-h1 {
-  margin: 0;
-  font-family: var(--font-display);
-  font-weight: 400;
-  line-height: 1.14;
-  letter-spacing: -0.035em;
-}
-
+h1,
 h2,
 h3,
 h4 {
   margin: 0;
-  font-family: var(--font-editorial);
-  font-weight: 550;
-  line-height: 1.08;
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.14;
   letter-spacing: -0.035em;
 }
 
@@ -124,7 +115,6 @@ h3 {
   border-bottom: 1px solid rgba(71, 59, 76, 0.12);
   background: rgba(255, 249, 243, 0.88);
   box-shadow: 0 4px 20px rgba(71, 59, 76, 0.035);
-  font-family: var(--font-hero-body);
   backdrop-filter: blur(16px);
 }
 
@@ -216,7 +206,6 @@ summary:focus-visible {
   min-height: calc(100svh - 76px);
   overflow: hidden;
   padding: clamp(62px, 7vw, 96px) 0 clamp(82px, 9vw, 128px);
-  font-family: var(--font-hero-body);
 }
 
 .hero::after {
@@ -484,7 +473,7 @@ summary:focus-visible {
   display: block;
   margin-bottom: 44px;
   color: var(--jaerim-cherry);
-  font-family: var(--font-editorial);
+  font-family: var(--font-display);
   font-size: 0.86rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -556,7 +545,7 @@ summary:focus-visible {
 
 .price-lockup strong {
   color: var(--jaerim-cherry-hover);
-  font-family: var(--font-editorial);
+  font-family: var(--font-display);
   font-size: clamp(2.35rem, 4vw, 3.7rem);
   font-weight: 400;
   line-height: 1;
@@ -678,7 +667,7 @@ summary:focus-visible {
 }
 
 .review-stats strong {
-  font-family: var(--font-editorial);
+  font-family: var(--font-display);
   font-size: 1.65rem;
   font-weight: 400;
 }
@@ -717,7 +706,7 @@ summary:focus-visible {
 
 .testimonial-card blockquote {
   margin: 0;
-  font-family: var(--font-editorial);
+  font-family: var(--font-display);
   font-size: clamp(1.28rem, 2.2vw, 1.78rem);
   line-height: 1.58;
 }

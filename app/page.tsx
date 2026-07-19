@@ -39,7 +39,7 @@ const availability = [
 
 const courses = [
   {
-    title: "🌱 Complete Beginner Course",
+    title: "Complete Beginner Course",
     intro:
       "Build a strong foundation in Korean by learning Hangul, essential grammar, vocabulary, and everyday expressions.",
     lead:
@@ -54,7 +54,7 @@ const courses = [
     ],
   },
   {
-    title: "🌿 Daily Korean Course",
+    title: "Daily Korean Course",
     intro:
       "Once you've learned the basics, we'll move on to Korean for everyday life.",
     lead: "Lessons are based on real-life situations, including:",
@@ -81,7 +81,7 @@ const courses = [
     ],
   },
   {
-    title: "🌿 Speaking Course (Intermediate & Advanced)",
+    title: "Speaking Course (Intermediate & Advanced)",
     intro:
       "Designed for learners who already know the basics and want to become more fluent.",
     lead: "Lessons focus on:",
@@ -193,7 +193,7 @@ export default function Home() {
               Learn Korean
               <span>with Jaerim</span>
             </h1>
-            <p className="hero-welcome">Welcome! 😊</p>
+            <p className="hero-welcome">Welcome!</p>
             <p>
               I&apos;m Jaerim, a Korean teacher and the creator of Daily Korean with
               Jaerim on YouTube.
@@ -202,7 +202,7 @@ export default function Home() {
             <p>
               In our lessons, we&apos;ll build on that foundation with personalized
               grammar, vocabulary, and speaking practice to help you communicate
-              confidently in Korean. 🗣️
+              confidently in Korean.
             </p>
             <div className="hero-actions">
               <a className="button" href={applicationUrl}>
@@ -235,7 +235,7 @@ export default function Home() {
         <div className="container split-section">
           <div>
             <p className="section-kicker">안녕하세요</p>
-            <h2>👩‍🏫 About My Lessons</h2>
+            <h2>About My Lessons</h2>
           </div>
           <div className="prose-large">
             <p>
@@ -260,7 +260,7 @@ export default function Home() {
         <div className="container">
           <div className="section-heading centered-heading">
             <p className="section-kicker">THE ESSENTIALS</p>
-            <h2>📚 Lesson Information</h2>
+            <h2>Lesson Information</h2>
           </div>
           <div className="lesson-info-grid">
             {lessonDetails.map((detail, index) => (
@@ -277,7 +277,7 @@ export default function Home() {
         <div className="container">
           <div className="section-heading">
             <p className="section-kicker">CHOOSE YOUR RHYTHM</p>
-            <h2>💳 Lesson Packages</h2>
+            <h2>Lesson Packages</h2>
           </div>
 
           <div className="packages-grid">
@@ -285,7 +285,7 @@ export default function Home() {
               <div className="price-card-top">
                 <div>
                   <p className="mini-label">FIRST LESSON</p>
-                  <h3>🌷 Trial Lesson</h3>
+                  <h3>Trial Lesson</h3>
                 </div>
                 <div className="price-lockup">
                   <strong>$50</strong>
@@ -293,7 +293,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="trial-highlight">
-                ✨ Your trial lesson is FREE when you continue with a monthly
+                Your trial lesson is FREE when you continue with a monthly
                 lesson package. The $50 trial lesson fee will be deducted from
                 your first monthly payment.
               </div>
@@ -314,7 +314,7 @@ export default function Home() {
               <article className="price-card monthly-card">
                 <div>
                   <p className="mini-label">ONCE A WEEK</p>
-                  <h3>🌿 4 Lessons / Month</h3>
+                  <h3>4 Lessons / Month</h3>
                   <p>Once a week (50 minutes per lesson)</p>
                 </div>
                 <div className="price-lockup">
@@ -326,7 +326,7 @@ export default function Home() {
               <article className="price-card monthly-card featured-monthly">
                 <div>
                   <p className="mini-label">TWICE A WEEK · SAVE 5%</p>
-                  <h3>🌿 8 Lessons / Month (Save 5%)</h3>
+                  <h3>8 Lessons / Month (Save 5%)</h3>
                   <p>Twice a week (50 minutes per lesson)</p>
                 </div>
                 <div className="price-lockup">
@@ -344,19 +344,19 @@ export default function Home() {
         <div className="container reviews-grid">
           <div>
             <p className="section-kicker">TRUSTED BY KOREAN LEARNERS</p>
-            <h2>⭐ Student Reviews</h2>
+            <h2>Student Reviews</h2>
             <div className="review-stats" aria-label="Student review statistics">
               <div>
                 <strong>5.0</strong>
-                <span>⭐ Rating</span>
+                <span>Rating</span>
               </div>
               <div>
                 <strong>41</strong>
-                <span>📝 Public Reviews</span>
+                <span>Public Reviews</span>
               </div>
               <div>
                 <strong>1,686</strong>
-                <span>📚 Lessons Taught</span>
+                <span>Lessons Taught</span>
               </div>
             </div>
           </div>
@@ -366,7 +366,7 @@ export default function Home() {
             <div className="rating" aria-label="5 out of 5 stars">
               ★ ★ ★ ★ ★
             </div>
-            <h3>💬 What My Students Say</h3>
+            <h3>What My Students Say</h3>
             <blockquote>
               “Jaerim has been the best teacher I&apos;ve ever had. She is
               incredibly patient, well prepared, and every lesson is
@@ -374,7 +374,7 @@ export default function Home() {
             </blockquote>
             <figcaption>— Joe</figcaption>
             <a className="text-link" href={reviewsUrl}>
-              👉 Read More Student Reviews <span aria-hidden="true">↗</span>
+              Read More Student Reviews <span aria-hidden="true">↗</span>
             </a>
           </figure>
         </div>
@@ -384,8 +384,8 @@ export default function Home() {
         <div className="container">
           <div className="section-heading centered-heading narrow-heading">
             <p className="section-kicker">A CLEAR PATH FOR EVERY LEVEL</p>
-            <h2>✨ Lesson Style</h2>
-            <p className="curriculum-label">📚 Curriculum</p>
+            <h2>Lesson Style</h2>
+            <p className="curriculum-label">Curriculum</p>
           </div>
 
           <div className="course-grid">
@@ -415,7 +415,7 @@ export default function Home() {
           <article className="materials-card">
             <div>
               <p className="mini-label">INCLUDED IN YOUR LESSONS</p>
-              <h3>📖 Learning Materials</h3>
+              <h3>Learning Materials</h3>
               <p>Lessons include a combination of:</p>
             </div>
             <CheckList
@@ -439,12 +439,12 @@ export default function Home() {
         <div className="container availability-grid">
           <div className="availability-intro">
             <p className="section-kicker">AUGUST 2026</p>
-            <h2>📆 Current Availability</h2>
+            <h2>Current Availability</h2>
             <h3>August 2026</h3>
             <p>The following weekly lesson times are currently available.</p>
             <div className="availability-note">
               <p>(Last updated: July 14, 2026)</p>
-              <strong>🤔 Can&apos;t find a suitable time?</strong>
+              <strong>Can&apos;t find a suitable time?</strong>
               <p>Please check this page again next month for updated availability.</p>
             </div>
           </div>
@@ -478,7 +478,7 @@ export default function Home() {
         <div className="container apply-card">
           <div>
             <p className="section-kicker">YOUR NEXT STEP</p>
-            <h2>✍️ Apply for Lessons</h2>
+            <h2>Apply for Lessons</h2>
             <p>Ready to start your Korean learning journey?</p>
             <p>I&apos;d love to help you achieve your goals.</p>
           </div>
@@ -492,10 +492,10 @@ export default function Home() {
         <div className="container policy-grid">
           <div>
             <p className="section-kicker">GOOD TO KNOW</p>
-            <h2>📅 Payment</h2>
+            <h2>Payment</h2>
           </div>
           <article className="policy-card">
-            <h3>💳 Payment &amp; Lesson Policy</h3>
+            <h3>Payment &amp; Lesson Policy</h3>
             <ul>
               <li>Trial lessons are paid before the lesson.</li>
               <li>
@@ -516,7 +516,7 @@ export default function Home() {
               </li>
             </ul>
             <div className="payment-method">
-              <h4>💳 Payment Method</h4>
+              <h4>Payment Method</h4>
               <p>
                 Payments are made securely through PayPal. (*A PayPal account is
                 not required.)
@@ -531,7 +531,7 @@ export default function Home() {
         <div className="container faq-grid">
           <div>
             <p className="section-kicker">EVERYTHING YOU NEED TO KNOW</p>
-            <h2>❓Frequently Asked Questions</h2>
+            <h2>Frequently Asked Questions</h2>
           </div>
           <div className="faq-list">
             {faqs.map((faq, index) => (
@@ -554,7 +554,7 @@ export default function Home() {
               JAERIM <Sparkle />
             </a>
             <p>Thank you so much for your interest in learning Korean with me!</p>
-            <p>I look forward to meeting you soon. 😊💛</p>
+            <p>I look forward to meeting you soon.</p>
           </div>
           <a className="button" href={applicationUrl}>
             Apply for lessons <Sparkle />
