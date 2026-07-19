@@ -217,7 +217,7 @@ export default function Home() {
             <div className="photo-frame">
               <div className="brand-board-crop">
                 <img
-                  src="/jaerim-brand-board.png"
+                  src="/jaerim-photo.png"
                   alt="Korean tutor studying at a warm desk"
                 />
               </div>
