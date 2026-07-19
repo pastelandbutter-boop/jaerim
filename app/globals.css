@@ -313,11 +313,10 @@ summary:focus-visible {
 }
 
 .brand-board-crop img {
-  position: absolute;
-  top: -80%;
-  left: -160%;
-  width: 420%;
-  max-width: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .photo-caption {
